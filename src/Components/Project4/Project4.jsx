@@ -16,7 +16,7 @@ import book7 from "../../assets/book7.jpg";
 import book8 from "../../assets/book8.jpg";
 import card4 from "../../assets/card4.png";
 import lightbox from "../../assets/lightbox.jpg";
-import tShirt from "../../assets/t-shirt-tag.png";
+import tShirt from "../../assets/tshirt-tag.png";
 import postcards from "../../assets/postcards.png";
 import fashion_website from "../../assets/fashion_website.mp4";
 
