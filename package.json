@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://follsqq01.github.io/ISCRA_STUDIO",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
