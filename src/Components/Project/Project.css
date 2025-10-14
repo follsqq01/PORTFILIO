@@ -1,0 +1,162 @@
+.project-wrapper section.project-type .project-type-copy {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+  height: 400px;
+}
+
+.project-wrapper section.project-hero {
+  padding: 0;
+  width: 100%;
+  height: 700px;
+}
+
+.project-wrapper section.project-hero .project-hero-img {
+  width: 100%;
+  height: 100%;
+}
+
+.project-wrapper section.project-hero .project-hero-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.project-wrapper section.project-overview .project-overview-copy {
+  width: 100%;
+  height: 300px;
+  display: flex;
+}
+
+.project-wrapper section.project-overview .project-overview-copy > div {
+  flex: 1;
+}
+
+.project-wrapper section.project-img-full {
+  width: 100%;
+  height: 100%;
+}
+
+.project-wrapper section.project-img-full .project-img-full-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.project-wrapper section.project-img-full .project-img-full-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.project-wrapper section.project-info {
+  display: flex;
+  gap: 2em;
+  padding-top: 0;
+}
+
+.project-wrapper section.project-info > div {
+  flex: 1;
+}
+.no-padding {
+  padding-left: 0 !important; /* перекрывает глобальный padding */
+  padding-right: 0 !important; /* перекрывает глобальный padding */
+  padding-top: 2vw !important; /* добавляет отступ сверху */
+  padding-bottom: 10vw !important; /* добавляет отступ сверху */
+  width: 110%;
+  margin-left: -5%;
+}
+.no-padd {
+  padding: 0;
+}
+.videoPreview_YoungKink {
+  width: 100%;
+  height: 100%; /* занимает всю высоту родителя */
+  object-fit: cover;
+  object-position: center;
+  display: block; /* убираем inline-gap */
+}
+@media (max-width: 768px) {
+  .videoPreview_YoungKink {
+    width: 100%;
+    height: 100vw; /* делаем вертикальное видео */
+    object-fit: cover;
+    object-position: center top; /* центрируем верхнюю часть, можно поменять */
+    border-radius: 0; /* если нужно убрать скругления */
+  }
+}
+.project-wrapper section.project-info .project-info-img {
+  height: 700px;
+}
+
+.project-wrapper section.project-info .project-info-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.project-overview-copy-h1 h1 a {
+  color: #fff;
+}
+
+section.discover {
+  padding-top: 0;
+}
+@media (max-width: 900px) {
+  .project-wrapper section.project-type .project-type-copy {
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+
+  .project-wrapper section.project-overview .project-overview-copy {
+    flex-direction: column;
+  }
+
+  .project-wrapper
+    section.project-overview
+    .project-overview-copy
+    .project-overview-ws {
+    display: none;
+  }
+
+  .project-wrapper section.project-overview .project-overview-copy {
+    height: max-content;
+  }
+
+  .project-wrapper
+    section.project-overview
+    .project-overview-copy
+    .project-overview-copy-h1 {
+    margin-top: 2em;
+    margin-bottom: 1em;
+  }
+
+  .project-wrapper section.project-info {
+    flex-direction: column;
+  }
+}
+
+.project-img-both-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 9vw; /* расстояние между картинками зависит от ширины экрана */
+}
+.project-img-both-wrapper img {
+  flex: 1 45%; /* занимают примерно половину родителя */
+  max-width: 45%;
+  height: auto;
+}
+@media (max-width: 48rem) {
+  /* ~768px, но в rem */
+  .project-img-both-wrapper {
+    gap: 4.5rem;
+    width: 100%;
+    flex-direction: column;
+  }
+  .project-img-both-wrapper img {
+    max-width: 100%;
+    flex: none;
+  }
+}
