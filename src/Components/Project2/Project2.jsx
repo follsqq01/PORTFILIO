@@ -33,7 +33,7 @@ import mocup2 from "../../assets/mocup2_echo.png";
 
 import card4 from "../../assets/card4.png";
 import lightbox from "../../assets/lightbox.jpg";
-import tShirt from "../../assets/t-shirt-tag.png";
+import tShirt from "../../assets/tshirt-tag.png";
 import postcards from "../../assets/postcards.png";
 import fashion_website from "../../assets/fashion_website.mp4";
 import render1_echo from "../../assets/render1_echo.png";
