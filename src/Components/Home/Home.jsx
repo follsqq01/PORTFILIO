@@ -57,7 +57,7 @@ const Home = () => {
             <img src={BannerImg} alt="" />
           </div>
           <div className="hero-img-copy">
-            <div cMWlassName="hero-img-copy-h1">
+            <div className="hero-img-copy-h1">
               <h1>ISCRA</h1>
               <h1>STUDIO</h1>
             </div>

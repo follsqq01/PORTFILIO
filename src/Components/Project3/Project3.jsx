@@ -25,7 +25,6 @@ import book6 from "../../assets/book6.jpg";
 import book7 from "../../assets/book7.jpg";
 import book8 from "../../assets/book8.jpg";
 import card4 from "../../assets/card4.png";
-import tShirt from "../../assets/tshirt-tag.png";
 import postcards from "../../assets/postcards.png";
 import render_wh1 from "../../assets/render_wh1.png";
 import render_wh2 from "../../assets/render_wh2.png";
