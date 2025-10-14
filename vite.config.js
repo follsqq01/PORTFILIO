@@ -2,5 +2,5 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 export default defineConfig({
   plugins: [react()],
-  base: "/ISCRA_STUDIO/", // обязательно имя репозитория!
+  base: "/PORTFILIO/", // обязательно имя репозитория!
 });
