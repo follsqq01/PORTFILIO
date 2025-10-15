@@ -113,13 +113,13 @@ const About = () => {
           >
             <div className="sticky-content">
               <div className="sitcky-content-h1">
-                <h1 className="num">1 / Masha</h1>
+                <h1 className="num">1</h1>
               </div>
               <div className="sitcky-content-h1">
                 <h1>
-                  I work where design meets contemporary art, exploring context
-                  and shaping ideas. Design, to me, is organized meaning — where
-                  thinking and feeling meet.
+                  I'm Masha and I work where design meets contemporary art,
+                  exploring context and shaping ideas. Design, to me, is
+                  organized meaning — where thinking and feeling meet.
                 </h1>
               </div>
             </div>
@@ -127,13 +127,13 @@ const About = () => {
           <div className="about-sticky about-sticky-2">
             <div className="sticky-content">
               <div className="sitcky-content-h1">
-                <h1 className="num">2 / Ruslan</h1>
+                <h1 className="num">2 </h1>
               </div>
               <div className="sitcky-content-h1">
                 <h1>
-                  I specialize in visuals, transforming ideas into vibrant
-                  images. For me, design is about creating harmony through form,
-                  where each element speaks for itself.
+                  HI! I'm Ruslan I specialize in visuals, transforming ideas
+                  into vibrant images. For me, design is about creating harmony
+                  through form, where each element speaks for itself.
                 </h1>
               </div>
             </div>
