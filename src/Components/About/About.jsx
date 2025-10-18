@@ -157,14 +157,14 @@ const About = () => {
           </div>
         </section> */}
 
-        {/* <section className="about-us office" data-scroll-section>
+        <section className="about-us office" data-scroll-section>
           <div className="about-us-copy">
             <div className="about-us-copy-p">
               <span>Iscra</span>
               <span>Design studio</span>
             </div>
           </div>
-        </section> */}
+        </section>
 
         <section className="footer" data-scroll-section>
           <div className="footer-copy">
