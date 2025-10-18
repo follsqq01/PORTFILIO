@@ -108,8 +108,8 @@ const About = () => {
           <div
             className="about-sticky about-sticky-1"
             data-scroll
-            data-scroll-sticky
-            data-scroll-target="#about-sticky-wrap"
+            // data-scroll-sticky
+            // data-scroll-target="#about-sticky-wrap"
           >
             <div className="sticky-content">
               <div className="sitcky-content-h1">
