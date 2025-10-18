@@ -83,7 +83,7 @@
 }
 .about-sticky .sticky-content {
   width: 100%;
-  height: auto;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
