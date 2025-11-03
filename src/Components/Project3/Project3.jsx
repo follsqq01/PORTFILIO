@@ -18,6 +18,7 @@ import wh10 from "../../assets/10_wh.png";
 import book1 from "../../assets/book1.png";
 import book2 from "../../assets/book2.jpg";
 import book3 from "../../assets/book3.jpg";
+import bookmoc from "../../assets/bookmoc.jpg";
 import macbook_moc4 from "../../assets/macbook_moc4.png";
 import book4 from "../../assets/book4.jpg";
 import book5 from "../../assets/book5.jpg";
@@ -187,6 +188,11 @@ const Project = () => {
             <div className="project-overview-copy-h1">
               <h1>picture book</h1>
             </div>
+          </div>
+        </section>
+        <section className="project-img-full" data-scroll-section>
+          <div className="project-img-full-wrapper">
+            <img src={bookmoc} alt="" />
           </div>
         </section>
 
